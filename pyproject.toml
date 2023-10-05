@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "miniflasknginxtest"
+version = "0.1.0"
+description = ""
+authors = ["Egor Kolundin <stillmonad@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+fastapi = "0.103.2"
+uvicorn = "0.23.2"
+
+[tool.poetry.group.dev.dependencies]
+fastapi = "0.103.2"
+uvicorn = "0.23.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
